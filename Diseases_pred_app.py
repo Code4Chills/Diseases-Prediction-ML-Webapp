@@ -21,7 +21,7 @@ parkinsons_model = pickle.load(open(f'{working_dir}/saved models/parkinsons_mode
 #sidebar for navigation
 
 with st.sidebar:
-    selected= option_menu('Multiple Disease Prediction System',['Diabetes Prediction','Heart Disease Prediction','Breast Cancer Prediction'],default_index=0)
+    selected= option_menu('Multiple Disease Prediction System',['Diabetes Prediction','Heart Disease Prediction','Parkinsons Disease Prediction'],default_index=0)
     
 if selected=='Diabetes Prediction':
     
