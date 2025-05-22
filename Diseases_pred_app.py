@@ -13,9 +13,9 @@ from  streamlit_option_menu import option_menu
 # getting the working directory of the main.py
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
-diabetes_model=pickle.load(open(f'{working_dir}/saved_models/diabetes_model.sav', 'rb'))
-heart_model=pickle.load(open(f'{working_dir}/saved_models/heart_disease_model.sav', 'rb'))
-parkinsons_model = pickle.load(open(f'{working_dir}/saved_models/parkinsons_model.sav', 'rb'))
+diabetes_model=pickle.load(open(f'{working_dir}/saved models/diabetes_model.sav', 'rb'))
+heart_model=pickle.load(open(f'{working_dir}/saved models/heart_disease_model.sav', 'rb'))
+parkinsons_model = pickle.load(open(f'{working_dir}/saved models/parkinsons_model.sav', 'rb'))
 
 
 #sidebar for navigation
